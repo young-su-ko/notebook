@@ -2,15 +2,21 @@
 ---
 
 @import "no-style-please";
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lexend:wght@100..900&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 body {
-  font-family: 'Noto Sans';
+  font-family: 'Manrope';
   font-size: 18px;
   color: #171a21;
   line-height: 1.6;
+  font-weight: 500;
 }
 h2, h3, h4, h5, h6 { margin-top: 1.2rem; margin-bottom: 0.7rem;}
-p { margin-top: 0.5rem; margin-bottom: 0.5rem;}
+p { margin-top: 1rem; margin-bottom: 1rem;}
+
+div.footnotes p {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
 
 header { text-align: center; }
 
@@ -34,11 +40,13 @@ code {
   background: rgb(41,44,54);
   padding: 0.2rem;
   font-size: 0.9rem;
-  border-radius: 0.3rem;
-}
-div.highlighter-rouge code {
   border-radius: 0.5rem;
 }
+
+.highlight {
+  border-radius: 1rem;
+}
+
 
 blockquote {
   border-radius: 0.5rem;

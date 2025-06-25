@@ -1,7 +1,7 @@
 ---
 layout: post
 category: research
-title: training protein language models / cramming challenge
+title: training protein language models / cramming challenge (part 1)
 ---
 
 ### i've never trained a protein language model
@@ -67,17 +67,17 @@ def apply_rotation(x, cos, sin):
 Ok, so we know how to rotate vectors. Now the question is what's $$\theta$$, the rotation amount? The rotation amount depends on both the token position and the channel dimension within a token embedding. 
 
 First, let's just say we token dim=1024. We set an inverse frequency so that the channel dimensions closer to 0 rotate slowly, while the channel dimensions closer to 1024 rotate faster. 
-```
+```python
 inv_freq = 1.0 / (10000 ** (torch.arange(0, dim, 2).float() / dim))
 ```
 For each token position t, we multiply by inv_freq, so that each position and pair of channel dim has a unique rotation amount.
-```
+```python
 t = torch.arange(x.shape[seq_dimension])
 freqs = torch.einsum("i,j->ij", t, self.inv_freq)
 emb = torch.cat((freqs, freqs), dim=-1)
 ```
 Then the cos and sin we used for rotation can be made:
-```
+```python
 cos = emb.cos()
 sin = emb.sin()
 ```
