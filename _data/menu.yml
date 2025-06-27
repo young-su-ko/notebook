@@ -10,3 +10,5 @@ entries:
       show_more_url: archive.html
   - title: about
     url: about
+  - title: todo
+    url: todo
