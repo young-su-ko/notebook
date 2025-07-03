@@ -1,6 +1,6 @@
 ---
 layout: post
-category: research
+category: projects
 title: training protein language models / cramming challenge (part 1)
 ---
 

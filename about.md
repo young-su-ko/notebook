@@ -36,7 +36,7 @@ But I realized I'd rather spend my last years being honest with myself. It's a l
 ### my notebook
 I will document things that I learn, especially things I'd be embarrassed to admit three years in that I don't fully understand. I am no longer content with surface level understanding. I'm hoping this notebook can be a research equivalent to "building in public". These notes are primarily for myself, but I am making it public for the reasons mentioned above.
 
-The content will be broad, ranging from insights from papers, to trying my showerthought ideas, sharing ideas that failed, and generally anything I find helped me in research. I'll also use this to practice writing[^3] and communicating effectively. And most importantly, it will be a testament to myself, that you can learn anything and you can just do things.
+The content will be broad, ranging from insights from papers, to trying my showerthought ideas, sharing ideas that failed, and generally anything I find helped me in research. I'll also use this to practice writing[^3] and communicating effectively. And most importantly, it's a reminder to myself that the only person I need to compare myself against is my past self.
 
 ---
 {: data-content="footnotes"}

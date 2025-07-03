@@ -2,12 +2,12 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: entries
+  - title: projects
     post_list:
-      limit: 5
-      show_more: true
-      show_more_text: see archive...
-      show_more_url: archive.html
+      category: projects
+  - title: concepts
+    post_list:
+      category: concepts
   - title: about
     url: about
   - title: todo

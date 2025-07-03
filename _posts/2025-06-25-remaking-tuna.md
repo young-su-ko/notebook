@@ -1,6 +1,6 @@
 ---
 layout: post
-category: research
+category: projects
 title: refactoring TUnA
 ---
 
