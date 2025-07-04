@@ -17,6 +17,7 @@ A bucket list of things I want to learn more about. Adding to this list truly ma
 4. ~~Fréchet inception distance~~
 5. Imagen
 6. KL divergence
-7. classifier guidance with non-
+7. classifier guidance with non-differentiable
+8. clip score (connect to pinal's protrek score)
 
 ![me]({{ site.baseurl }}/assets/images/todo/monk.png)
