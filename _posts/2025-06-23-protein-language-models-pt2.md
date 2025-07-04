@@ -1,7 +1,7 @@
 ---
 layout: post
 category: projects
-title: training protein language models / cramming challenge (part 2)
+title: training protein language models / cramming challenge (ii)
 ---
 
 ### model is ready, now what?

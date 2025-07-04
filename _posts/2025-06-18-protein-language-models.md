@@ -1,7 +1,7 @@
 ---
 layout: post
 category: projects
-title: training protein language models / cramming challenge (part 1)
+title: training protein language models / cramming challenge (i)
 ---
 
 ### i've never trained a protein language model
