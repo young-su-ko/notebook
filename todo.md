@@ -2,8 +2,6 @@
 layout: page
 title: todo
 ---
-A bucket list of things I want to learn more about. Adding to this list truly makes me realize the more you learn, the less you realize you know.
-
 ### projects
 1. implement/train an inverse folding model (structure -> sequence)
 2. [meanflow](https://arxiv.org/abs/2505.13447)
@@ -19,5 +17,6 @@ A bucket list of things I want to learn more about. Adding to this list truly ma
 6. ~~KL divergence~~
 7. classifier guidance with non-differentiable
 8. ~~clip score (connect to pinal's protrek score)~~
+9. infoNCE
 
 ![me]({{ site.baseurl }}/assets/images/todo/monk.png)
