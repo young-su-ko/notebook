@@ -42,9 +42,9 @@ $$
 X_t \sim \mathcal{N}(\alpha_tz, \beta_t^2I_d) = p_t(\cdot \vert z)
 $$
 
-Now, we need to extract the vector field from the flow. We do this by taking the time-derivative of the flow.
+Now, we need to extract the vector field from the flow. We do this by taking the time-derivative of the flow. Intuitively, this makes sense. In the 1-D physics case, we know the derivative of position is velocity.
 
-Intuitively, this makes sense. In the 1-D physics case, we know the derivative of position is velocity. So in general, we have:
+More generally, the vector field tells us the velocity at any given point, and the flow is defined so that its time derivative matches the vector field evaluated at the current position along the flow.
 
 $$
 \frac{\text{d}}{\text{d}t}\psi_t(x \vert z) = u_t(\psi_t(x\vert z) \vert z)
